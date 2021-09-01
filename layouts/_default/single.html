@@ -3,10 +3,9 @@
 <article class="post-single">
   <header class="post-title">
     <aside>
-      <span>Published:</span>
       <time>{{ .Date.Format "January 2, 2006" }}</time>
       {{ if or .Params.Author site.Author.name }}
-      <span>by {{ .Params.Author | default site.Author.name }}</span>
+      <span>{{ .Params.Author | default site.Author.name }}</span>
       {{ end }}
       {{ if and site.Params.showLastMod .Page.Lastmod }}
       <hr />
