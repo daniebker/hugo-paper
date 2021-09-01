@@ -48,7 +48,10 @@ disqusShortname = 'YOUR_DISQUES_SHORTNAME'   # add disqus comments
   twitter = 'YOUR_TWITTER_ID'                # twitter.com/YOUR_TWITTER_ID
   github = 'YOUR_GITHUB_ID'                  # github.com/YOUR_GITHUB_ID
   instagram = 'YOUR_INSTAGRAM_ID'            # instagram.com/YOUR_INSTAGRAM_ID
+  showLastMod = false                        # If enabled shows the last modified date in a single page.
 ```
+
+With `showLastMod` set to true you can add `enableGitInfo = true` in the `config.toml` to enable the last modified timestamp from the git log. See `.LastMod` in [Page Variables documentation](https://gohugo.io/variables/page/) for more info on fallbacks. 
 
 ## Pitiless Ads
 
