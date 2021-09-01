@@ -3,3 +3,6 @@
 
 - id: next_page
   translation: 'Página anterior'
+
+- id: last_mod
+  translation: 'Última modificación'
