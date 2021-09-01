@@ -3,3 +3,6 @@
 
 - id: next_page
   translation: 'Next Page'
+
+- id: last_mod
+  translation: 'Last Modified'

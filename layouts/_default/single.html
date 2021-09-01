@@ -9,7 +9,7 @@
       {{ end }}
       {{ if and site.Params.showLastMod .Page.Lastmod }}
       <hr />
-      <span>Last Modified:</span>
+      <span>{{ i18n "last_mod" }}</span>
       <span>{{ .Page.Lastmod.Format "January 2, 2006" }}</span>
       {{ end }}
     </aside>
